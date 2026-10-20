@@ -1,3 +1,4 @@
 .env
 *.log
 nodes_modules/
+config.local
