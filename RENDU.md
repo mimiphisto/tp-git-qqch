@@ -145,6 +145,37 @@ commit 4337bfc0b69f9b2a1f0b6165bc7e7d57198766f6
 Author: mimiphisto <annabouffier08@gmail.com>
 Date:   Wed Oct 21 20:38:41 2026 +0200
 
+git log --oneline --graph --all : (Bonus)
+* eff265d (HEAD -> main, tag: rendu2) ex10 : complète le rendu
+* 0d3be2e (tag: rendu) ex10 : compèete le rendu
+* b139a3a (test/main) ex9 : ajoute la page d'accueil
+* 0d643e5 ex8 : modification depuis GitHub 2
+*   66fb7e4 Merge branch 'main' of https://github.com/mimiphisto/tp-git-qqch
+|\  
+| * f7df252 ex8 : modification depuis GitHub
+* | 4337bfc erreur de moi
+|/  
+*   65ff63d Merge pull request #1 from mimiphisto/feature-contact
+|\  
+| * 7da4d34 (test/feature-contact, feature-contact) ex8 : ajoute la page contact
+|/  
+* 0f0478c ex7 : ajoute la ligne en cours
+* d0818f6 Revert "ex7 : ajoute une ligne par erreur"
+* f747510 ex7 : ajoute une ligne par erreur
+*   868a543 ex6 : résout le conflit du titre
+|\  
+| * e4b12fe (test/version-en) ex6 : titre en anglais
+* | eef61ed (test/version-fr) ex6 : titre en français
+|/  
+* 04d4669 rendu exos 1 à 5
+*   71a4d8d ex5 : fusionne feature-menu
+|\  
+| * 70ecdbf (test/feature-menu) ex5 : ajoute un dessert
+| * b1567d1 ex5 : crée le menu
+|/  
+* a8196ed ex4 : supprime a-supprimer.txt
+* 2eee186 ex4 : renomme ancien.txt
+
 
 
 https://github.com/mimiphisto/tp-git-qqch.git
