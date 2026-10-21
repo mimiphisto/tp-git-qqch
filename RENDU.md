@@ -40,14 +40,20 @@ Quand on retire du staging, la modification n'est pas perdue, elle n'est juste p
 
 ## Ex6
 - À quoi servent <<<<<<<, ======= et >>>>>>> ?
+<<<<< indique la version actuelle, === indique le conflit, >>>>> indique la fin de la version qu'on veut fusionner
 
 ## Ex7
 - git stash list (avant récupération) :
+stash@{0}: On main: ligne ex7
 - Pourquoi annuler un commit plutôt que l'effacer de l'historique ?
+il vaut mieux annuler un commit plutôt que de l'effacer pour garder une trace des modifications apportées, donc on ne réécrit pas l'historique.
 
 ## Ex8
 - git pull = git fetch + quoi ?
+git pull = git fetch (récupérer les nouveautés du dépôt distant sans fusionner) + git merge
 
 ## Ex10
 git log --oneline --graph --all :
 ```
+
+https://github.com/mimiphisto/tp-git-qqch.git
